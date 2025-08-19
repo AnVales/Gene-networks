@@ -1,19 +1,19 @@
-🧬 Gene-networks
-📌 Descripción
+# 🧬 Gene-networks
+## 📌 Descripción
 
 Este proyecto analiza la red regulatoria de genes en E. coli a partir de un archivo de interacciones (network_tf_gene.txt) obtenido de RegulonDB
 .
 
-📂 Archivos principales
+## 📂 Archivos principales
 
 e.coli_regulatory_network_script.py → código para procesar la red.
 
 network_tf_gene.txt → datos de relaciones factor de transcripción → gen.
 
-🔹 Flujo del análisis
+## 🔹 Flujo del análisis
 1️⃣ Input
 
-📄 Archivo de texto con pares de regulación TF → Gene.
+## 📄 Archivo de texto con pares de regulación TF → Gene.
 
 2️⃣ Procesamiento (Python)
 
@@ -40,10 +40,10 @@ TF3 ───▶ GeneA
 
 👤 TF (factor de transcripción) → 🧬 Gen regulado
 
-⚡ Ejecución
+## ⚡ Ejecución
 python e.coli_regulatory_network_script.py network_tf_gene.txt
 
-🚀 Posibles extensiones
+## 🚀 Posibles extensiones
 
 ✨ Visualización con networkx o matplotlib.
 
